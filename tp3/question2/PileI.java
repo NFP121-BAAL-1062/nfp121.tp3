@@ -10,7 +10,7 @@ public interface PileI {
     public void empiler(Object o) throws PilePleineException;
     public Object depiler() throws PileVideException;
   
-    public Object sommet() throws PileVideException;
+public Object sommet() throws PileVideException;
     public int capacite();
     public int taille();
     public boolean estVide();
